@@ -1,0 +1,25 @@
+export default {
+  connectionPopUp: {
+    selectAccount: `button:has-text("MetaMask")`,
+  },
+  connectWalletButton: `button:has-text("Ethereum")`,
+  inputEmail:`[data-testid="test-email"] [data-testid="test-input-input"]`,
+  inputPassWord: `[data-testid="test-password"] [data-testid="test-input-input"]`,
+  loginButton: `[data-testid="test-button"]`,
+  nodeTabInLeftPane: `[title="Nodes"]`,
+  homeTabInLeftPane: `[title="Home"]`,
+  createNodeButton: `[data-testid="test-CreateSteam"] [data-testid="mui-button-primary"]`,
+  selectProtocol: `[data-testid="test-CardCountrySelect"]`,
+  selectNetwork: `[data-testid="mui-select"]`,
+  createNodeWithSelection: `[data-testid="mui-modal"] [data-testid="mui-button-primary"]`,
+  nodeCreationSuccesElement: `[data-testid="mui-accordion"]`,
+  nodeUrlText: `[data-testid="mui-input"]`,
+  apiKeyText: `[data-testid="mui-input"]`,
+  removeNodeButton: `[data-testid="mui-accordion"] [data-testid="mui-button-outline"]`,
+  deleteButton: `[data-testid="mui-button-destructive"]`,
+  notificationToaster: {
+    alertToasters: `[role="alert"]`,
+    UnauthorizedText: `text=Unauthorized`,
+    alertTextUnableToLogin: `text=Something went wrong`,
+  },
+};
